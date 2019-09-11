@@ -44,8 +44,8 @@
 .bg-light {
   background-color: #f7f9fa; }
 
-.bg-violet {
-  background-color: #4f31d0; }
+.bg-blue {
+  background-color: rgb(36, 67, 102); }
 
 .bg-dark {
   background-color: #171919; }
@@ -5481,3 +5481,30 @@ header .flex-child.flex-right {
     padding-bottom: 140px; } }
 
 /*# sourceMappingURL=style.css.map */
+
+.accordion-content {
+  padding-top: 40px;
+  max-height: 0;
+  overflow: hidden;
+  transition: 0.4s ease-in-out;
+}
+
+button.accordion {
+  color: none;
+  background-color: none;
+  border: none;
+  padding: 0;
+}
+
+h1.hoverBlue {
+  color: rgb(25, 48, 74);
+}
+
+h1.hoverBlue:hover {
+  color: #0892d0;
+}
+
+div.wrapper {
+  display: none
+}
+
